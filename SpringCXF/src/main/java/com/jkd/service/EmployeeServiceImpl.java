@@ -4,7 +4,7 @@ import javax.jws.WebService;
 
 import com.jkd.model.Employee;
 
-@WebService(endpointInterface="com.jkd.service.EmpService")
+@WebService(endpointInterface="com.jkd.service.EmployeeService")
 public class EmployeeServiceImpl implements EmployeeService {
 
 	@Override
