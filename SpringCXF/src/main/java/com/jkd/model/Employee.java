@@ -7,9 +7,9 @@ package com.jkd.model;
  */
 public class Employee {
 
-	public int employeeId;
-	public String firstName;
-	public String lastName;
+	private int employeeId;
+	private String firstName;
+	private String lastName;
 	public int getEmployeeId() {
 		return employeeId;
 	}
